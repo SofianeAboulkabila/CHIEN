@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+.tete {
+    display: flex;
+    position: absolute;
+    width: 575px;
+    height: 410px;
+    background-color: #A5292A;
+    margin-left: 400px;
+    margin-top: 200px;
+    border-radius: 50px 50px 20% 20%;
+}
+.yeux {
+    display: flex;
+    position: absolute;
+    height: 120px;
+    width: 90px;
+    background-color: white;
+    margin-top: 85px;
+    margin-left: 125px;
+    border-radius: 45px 45px 0% 0%;
+}
+#y2 {
+    margin-left: 360px;
+}
+.pupilles {
+    position: absolute;
+    height: 85px;
+    width: 65px;
+    border-radius: 35px 35px 0% 0%;
+    background-color: black;
+    top: 35px;
+    left: 12.5px;
+}
+.nez {
+    position: absolute;
+    width:0px;
+	height:0px;
+    border-top: 47.5px solid transparent;
+    border-bottom: 47.5px solid transparent;
+    border-left: 50px solid black;
+    transform: rotate(90deg);
+    top: 185px;
+    left: 260px;
+}
+.bouche {
+    position: absolute;
+    width: 288px;
+    height: 68px;
+    background-color: black;
+    border-radius: 0% 0% 50px 50px;
+    left: 145px;
+    top: 257px;
+}
+.oreilles {
+    position: absolute;
+    background-color: #A5292A;
+    width: 130px;
+    height: 265px;
+    top: -160px;
+    left: -35px;
+    border-radius: 50%;
+    z-index: -1;
+}
+#o2 {
+    margin-left: 520px;
+}
+.oreillettes {
+    position: absolute;
+    background-color: #BC8F8F;
+    height: 215px;
+    width: 100px;
+    top: 25px;
+    left: 15px;
+    border-radius: 50%;
+    z-index: -1;
+}
